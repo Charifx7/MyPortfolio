@@ -13,7 +13,7 @@
                 </h2>
                 <div class="mt-8" v-for="skill in Skills" :key="skill.id">
                     <div class="flex items-end justify-between" data-aos="fade-right">
-                        <h4 class="font-semibold uppercase text-white">
+                        <h4 class="font-semibold  text-white">
                             {{ skill.name }}
                         </h4>
                         <h3 class="text-2xl font-bold text-white">{{ skill.level }}</h3>
@@ -59,6 +59,11 @@ const Skills = ref([
         id: 4,
         name: 'Nodejs , Javascript',
         level: 'Beginner'
+    },
+    {
+        id: 5,
+        name: 'MongoDB',
+        level: 'Learning'
     },
 
 ]);
