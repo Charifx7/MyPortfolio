@@ -56,7 +56,7 @@ import { ref, computed } from 'vue';
 const Projects = ref([
     {
         id: 1,
-        image: 'src/assets/project1.png',
+        image: '/assets/project1.png',
         title: 'To-do list',
         description: 'Practice Vuejs component, state management, API integration, CRUD, Async handling and debugging',
         technologies: ['Vue', 'Pinia','Axios','Mock-API','TailwindCSS'],
