@@ -36,7 +36,7 @@ const Menu = ref([
     { name: 'About Me', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Contacts', href: '#contact' },
+    { name: 'Contact', href: '#contact' },
 ]);
 
 const isMenuOpen = ref(false)
