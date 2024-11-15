@@ -11,14 +11,15 @@
                     <div class="text-center lg:text-left">
                         <h1 class="pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl">
                             Hi, I'm <span
-                                class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-rr from-white to-[#00aeff]">
+                                class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r bg-clip-text text-[#78d0fc]">
                                 Charif
                             </span>
                         </h1>
                     </div>
-                    <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl">
+                    <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text">
                         Junior Web developer
                     </p>
+    
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button
                             class="border ry px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center" style="background-color: #004d73; border-color: #004d73;">

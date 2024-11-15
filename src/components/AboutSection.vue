@@ -6,17 +6,14 @@
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
             <div data-aos="flip-right">
                 <h2 class="text-4xl font-bold text-white text-left mb-8 ">
-                    <p class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text">
-  This text has a gradient color effect on all screen sizes.
-</p>
-                    <span class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-[#007fbd] to-[#dbebfa]">Education</span>
+                    <span class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r bg-clip-text text-[#78d0fc]">Education</span>
                 </h2>
                 <div class="space-y-8 py-8">
                     <div v-for="element in education" :key="element.id"
                         class="flex items-center md:w-[50%] w-full rounded-xl bg-[#004d73] shadow-lg border border-[#1f1641]">
                         <div class="w-3/4 pl-4">
                             <h3
-                                class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-[#dbebfa] to-[#ffffff] lg:text-xl">
+                                class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r bg-clip-text text-[#78d0fc] lg:text-xl">
                                 {{ element.School }}
                             </h3>
                             <p class="text-white">{{ element.program }}</p>
@@ -27,7 +24,7 @@
             </div>
             <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
                 <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">
-                    <span class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-[#007fbd] to-[#dbebfa]">About</span>
+                    <span class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r bg-clip-text text-[#78d0fc]">About</span>
                     Me
                 </h2>
                 <p class="text-base lg:text-lg mt-8 py-8">My name is Muhammadcharif Binlateh I am a new graduate in
