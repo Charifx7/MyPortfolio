@@ -11,12 +11,12 @@
                     <div class="text-center lg:text-left">
                         <h1 class="pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl">
                             Hi, I'm <span
-                                class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r bg-clip-text text-[#78d0fc]">
+                                class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r bg-clip-text from-cyan-400 to-blue-600 bg-clip-text bg">
                                 Charif
                             </span>
                         </h1>
                     </div>
-                    <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text">
+                    <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text bg-clip-text">
                         Junior Web developer
                     </p>
     
