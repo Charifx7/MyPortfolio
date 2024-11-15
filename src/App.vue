@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#111827] min-h-screen">
+  <div class="bg-[#172035] min-h-screen">
     <!-- Wrap components in Suspense to handle loading -->
      <Suspense>
       <template #default>

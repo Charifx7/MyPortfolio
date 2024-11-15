@@ -10,10 +10,10 @@
                 </h2>
                 <div class="space-y-8 py-8">
                     <div v-for="element in education" :key="element.id"
-                        class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]">
+                        class="flex items-center md:w-[50%] w-full rounded-xl bg-[#004d73] shadow-lg border border-[#1f1641]">
                         <div class="w-3/4 pl-4">
                             <h3
-                                class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#dbebfa] to-[#007fbd] lg:text-xl">
+                                class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#dbebfa] to-[#ffffff] lg:text-xl">
                                 {{ element.School }}
                             </h3>
                             <p class="text-white">{{ element.program }}</p>
