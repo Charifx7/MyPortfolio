@@ -43,6 +43,17 @@
                                 style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); border: 1px solid #111827;backdrop-filter: blur(9px);-webkit-backdrop-filter: blur(9px);">
                                 <p class="px-1 py-2">{{ technology }}</p>
                             </div>
+                            <!-- Buttons for GitHub and Demo -->
+                            <div class="flex mt-4 space-x-4">
+                                <a :href="project.gitURL" target="_blank"
+                                    class="px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700">
+                                    View GitHub
+                                </a>
+                                <a :href="project.webURL" target="_blank"
+                                    class="px-4 py-2 text-sm font-semibold text-white bg-green-600 rounded-md hover:bg-green-700">
+                                    View Demo
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
