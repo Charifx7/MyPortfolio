@@ -16,18 +16,18 @@
                             </span>
                         </h1>
                     </div>
-                    <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-cyan-400 to-blue-600  bg-clip-text">
+                    <p
+                        class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-cyan-400 to-blue-600  bg-clip-text">
                         Junior Web developer
                     </p>
-    
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
-                        <button
-                            class="border ry px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center bg-gradient-to-r from-cyan-600 to-blue-600" style="background-color: #4DD0E1; border-color: #004d73;">
-                            <div
-                                class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative">
-                                <a href="/resume.pdf" download="resume.pdf" class="text-lg font-bold text-white">Resume</a>
-                            </div>
-                        </button>
+                        <a href="https://www.google.com" target="_blank" class="w-full sm:w-max">
+                            <button class="border ry px-6 md:px-7 py-3 rounded-full relative group w-full flex justify-center 
+            bg-gradient-to-r from-cyan-600 to-blue-600 transition-transform duration-500 hover:scale-105"
+                                style="background-color: #4DD0E1; border-color: #004d73;">
+                                <span class="text-lg font-bold text-white">Resume</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div class="lg:h-full md:flex">
@@ -39,7 +39,7 @@
                         <div
                             class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border">
                             <img src="@/assets/top_picture.jpg" alt="Hero pic" width="500" height="auto" loading="lazy"
-                                class="w-full h-full rounded-full object-cover">
+                                class="w-full h-full rounded-full object-cover fade-in-zoom" />
                         </div>
                     </div>
                 </div>
@@ -60,3 +60,21 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 </script>
+
+<style>
+@keyframes fadeInZoom {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.fade-in-zoom {
+    animation: fadeInZoom 1s ease-out forwards;
+}
+</style>

@@ -6,10 +6,10 @@
             </div>
             <ul class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3 "
                 data-aos="fade-right">
-                <div v-for="project in Projects" :key="project.id">
+                <div v-for="project in Projects" :key="project.id" class="transition-transform duration-500 hover:scale-105">
                     <div class="h-52 md:h-[24rem] rounded-t-xl relative group "
                         :style="{ backgroundImage: 'url(' + project.image + ')', backgroundSize: 'cover' }">
-                        
+
                     </div>
                     <div class="text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4">
                         <h3 class="text-lg font-semibold uppercase lg:text-xl"> {{ project.title }}</h3>
@@ -23,15 +23,15 @@
                         </div>
                         <!-- Buttons for GitHub and Demo -->
                         <div class="flex mt-4 space-x-4">
-                                <a :href="project.gitURL" target="_blank"
-                                    class="px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700">
-                                    View GitHub
-                                </a>
-                                <a :href="project.webURL" target="_blank"
-                                    class="px-4 py-2 text-sm font-semibold text-white bg-green-600 rounded-md hover:bg-green-700">
-                                    View Demo
-                                </a>
-                            </div>
+                            <a :href="project.gitURL" target="_blank"
+                                class="px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700">
+                                View GitHub
+                            </a>
+                            <a :href="project.webURL" target="_blank"
+                                class="px-4 py-2 text-sm font-semibold text-white bg-green-600 rounded-md hover:bg-green-700">
+                                View Demo
+                            </a>
+                        </div>
                     </div>
                 </div>
             </ul>
