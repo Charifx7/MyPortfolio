@@ -6,7 +6,7 @@
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
             <div data-aos="flip-right">
                 <h2 class="text-4xl font-bold text-white text-left mb-8 ">
-                    <span class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-blue-400 to-blue-300 bg bg-clip-text">Education</span>
+                    <span class="text-cyan-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl">Education</span>
                 </h2>
                 <div class="space-y-8 py-8">
                     <div v-for="element in education" :key="element.id"
@@ -24,7 +24,7 @@
             </div>
             <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
                 <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">
-                    <span class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text">About</span>
+                    <span class="text-cyan-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl">About</span>
                     Me
                 </h2>
                 <p class="text-base lg:text-lg mt-8 py-8">My name is Muhammadcharif Binlateh I am a new graduate in
