@@ -10,10 +10,9 @@
                 </h2>
                 <div class="space-y-8 py-8">
                     <div v-for="element in education" :key="element.id"
-                        class="flex items-center md:w-[50%] w-full rounded-xl bg-[#004d73] shadow-lg border border-[#1f1641]">
+                        class="flex items-center md:w-[50%] w-full rounded-xl  shadow-lg border border-[#1f1641] py-3 bg-gradient-to-r from-[#111a3e] to-[#111a3e]">
                         <div class="w-3/4 pl-4">
-                            <h3
-                                class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r bg-clip-text text-[#78d0fc] lg:text-xl">
+                            <h3 class="text-cyan-300 text-center lg:text-left mx-auto max-w-xl text-2xl">
                                 {{ element.School }}
                             </h3>
                             <p class="text-white">{{ element.program }}</p>
@@ -28,14 +27,10 @@
                     Me
                 </h2>
                 <p class="text-base lg:text-lg mt-8 py-8">My name is Muhammadcharif Binlateh I am a new graduate in
-                    Computer Science with a strong foundation in web development,
-                    both front-end and back-end.
-                    I am passionate about building responsive, user-friendly websites and applications.
-                    I have honed my skills in various programming languages and
-                    frameworks, including HTML, CSS, JavaScript, Vue, Node.js, and MongoDB.
-                    I am always eager to learn new technologies to improve my skills.
-                    As a self-motivated and detail-oriented individual, I am excited to apply my knowledge and grow
-                    within the field of web development.
+                    Computer Science
+                    with a passion for creating responsive, user-friendly websites. I have experience with HTML, CSS,
+                    JavaScript, Vue, Node.js, and MongoDB, and I'm always eager to learn new technologies to enhance my
+                    skills. I look forward to applying my knowledge and growing in the field of web development.
                 </p>
             </div>
         </div>

@@ -28,9 +28,7 @@
                     </div>
                 </div>
             </div>
-            
         </div>
-
     </section>
 </template>
 <script setup>
@@ -53,13 +51,13 @@ const Skills = ref([
     },
     {
         id: 4,
-        name: 'Nodejs , Javascript',
+        name: 'Javascript',
         level: 'Beginner'
     },
     {
         id: 5,
         name: 'MongoDB',
-        level: 'Learning'
+        level: 'Beginner'
     },
 
 ]);
@@ -70,16 +68,20 @@ const Tools = ref([
         name: 'Visual studio code',
     },
     {
-        id: 1,
+        id: 2,
         name: 'Git',
     },
     {
-        id: 1,
+        id: 3,
         name: 'Postman',
     },
     {
-        id: 1,
-        name: '',
+        id: 3,
+        name: 'Figma',
+    },
+    {
+        id: 3,
+        name: 'Photoshop',
     },
 
 ]);

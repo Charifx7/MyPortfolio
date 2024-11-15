@@ -1,20 +1,34 @@
 <template>
-    <section class="text-white mt-20" id="contact">
-        <div class="text-4xl font-bold text-white text-center mb-4 px-4 xl:pl-16">
-            <div class="flex flex-col items-center text-center" data-aos="zoom-in-up">
-                <h1>Contact</h1>
-                <div class="text-3xl mt-10">Email: charif.edu7@gmail.com</div>
-                <div class="text-3xl mt-10">Tel: 097-348-8899</div>
-            </div>
+  <section class="text-white mt-20" id="contact">
+    <div class="flex justify-center items-center p-4" data-aos="zoom-in-up">
+      <div
+        class="bg-gradient-to-r from-[#111a3e] to-[#111a3e] p-6 md:p-8 rounded-lg shadow-xl w-full max-w-xl lg:max-w-4xl">
+        <div class="text-center">
+          <h1 class="text-cyan-300 pt-2 mx-auto text-3xl md:text-5xl font-bold">Contact Me</h1>
+          <p class="text-base md:text-lg text-white mt-4">If you need more information, feel free
+            to reach out!</p>
         </div>
-        
-        <div
-            class="py-8 xl:px-16 px-4 sm:py-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
+
+        <!-- Contact Information with Borders -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 mt-8 border-t border-b border-cyan-500">
+          <!-- Email Column -->
+          <div class="pt-6 pb-6 sm:border-r border-cyan-500">
+            <h2 class="text-xl md:text-2xl font-semibold text-cyan-300">Email</h2>
+            <p class="font-semibold text-white text-base md:text-lg">charif.edu7@gmail.com</p>
+          </div>
+
+          <!-- Phone Column -->
+          <div class="pt-6 pb-6">
+            <h2 class="text-xl md:text-2xl font-semibold text-cyan-300">Phone</h2>
+            <p class="font-semibold text-white text-base md:text-lg">097-348-8899</p>
+          </div>
         </div>
-        <div
-            class="py-8 xl:px-16 px-4 sm:py-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
-        </div>
-    </section>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center mt-40"></div>
+  </section>
+
 </template>
 <script>
 
