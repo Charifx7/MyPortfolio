@@ -9,30 +9,7 @@
                 <div v-for="project in Projects" :key="project.id">
                     <div class="h-52 md:h-[24rem] rounded-t-xl relative group "
                         :style="{ backgroundImage: 'url(' + project.image + ')', backgroundSize: 'cover' }">
-                        <div class="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#323131] bg-opacity-0
-                    hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500
-                    ">
-                            <a class="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-                                :href="project.gitURL" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
-                                    fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                    aria-hidden="true" data-slot="icon"
-                                    class="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5">
-                                    </path>
-                                </svg></a><a
-                                class="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-                                :href="project.webURL" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg"
-                                    fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                    aria-hidden="true" data-slot="icon"
-                                    class="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z">
-                                    </path>
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
-                                </svg></a>
-                        </div>
+                        
                     </div>
                     <div class="text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4">
                         <h3 class="text-lg font-semibold uppercase lg:text-xl"> {{ project.title }}</h3>
@@ -43,8 +20,9 @@
                                 style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); border: 1px solid #111827;backdrop-filter: blur(9px);-webkit-backdrop-filter: blur(9px);">
                                 <p class="px-1 py-2">{{ technology }}</p>
                             </div>
-                            <!-- Buttons for GitHub and Demo -->
-                            <div class="flex mt-4 space-x-4">
+                        </div>
+                        <!-- Buttons for GitHub and Demo -->
+                        <div class="flex mt-4 space-x-4">
                                 <a :href="project.gitURL" target="_blank"
                                     class="px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700">
                                     View GitHub
@@ -54,7 +32,6 @@
                                     View Demo
                                 </a>
                             </div>
-                        </div>
                     </div>
                 </div>
             </ul>
@@ -79,7 +56,7 @@ const Projects = ref([
         image: '/assets/project0.jpg',
         title: 'Food generator',
         description: 'Practice Vuejs connect with MongoDB ',
-        technologies: [''],
+        technologies: ['Vue'],
         gitURL: 'https://github.com/Charifx7',
         webURL: ''
     },
@@ -88,7 +65,7 @@ const Projects = ref([
         image: '/assets/project0.jpg',
         title: 'Authentication',
         description: 'Practice Vuejs connect with MongoDB ',
-        technologies: [''],
+        technologies: ['Vue'],
         gitURL: 'https://github.com/Charifx7',
         webURL: ''
     },

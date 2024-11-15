@@ -22,7 +22,7 @@
     
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button
-                            class="border ry px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center" style="background-color: #004d73; border-color: #004d73;">
+                            class="border ry px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center bg-gradient-to-r from-cyan-600 to-blue-600" style="background-color: #4DD0E1; border-color: #004d73;">
                             <div
                                 class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative">
                                 <a href="/resume.pdf" download="resume.pdf" class="text-lg font-bold text-white">Resume</a>
