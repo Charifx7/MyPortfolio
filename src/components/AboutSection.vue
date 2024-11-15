@@ -6,7 +6,7 @@
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
             <div data-aos="flip-right">
                 <h2 class="text-4xl font-bold text-white text-left mb-8 ">
-                    <span class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r bg-clip-text text-[#78d0fc]">Education</span>
+                    <span class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text">Education</span>
                 </h2>
                 <div class="space-y-8 py-8">
                     <div v-for="element in education" :key="element.id"
