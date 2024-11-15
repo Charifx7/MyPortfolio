@@ -4,10 +4,10 @@
             <div class="mb-4 md:flex md:justify-between xl:pr-16">
                 <h2 class="text-4xl font-bold text-white"> My Latest Projects</h2>
             </div>
-            <ul class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
+            <ul class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3 "
                 data-aos="fade-right">
-                <div v-for="project in filteredProjects" :key="project.id">
-                    <div class="h-52 md:h-[24rem] rounded-t-xl relative group"
+                <div v-for="project in Projects" :key="project.id">
+                    <div class="h-52 md:h-[24rem] rounded-t-xl relative group "
                         :style="{ backgroundImage: 'url(' + project.image + ')', backgroundSize: 'cover' }">
                         <div class="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#323131] bg-opacity-0
                     hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500
@@ -59,20 +59,31 @@ const Projects = ref([
         image: '/assets/project1.png',
         title: 'To-do list',
         description: 'Practice Vuejs component, state management, API integration, CRUD, Async handling and debugging',
-        technologies: ['Vue', 'Pinia','Axios','Mock-API','TailwindCSS'],
+        technologies: ['Vue', 'Pinia', 'Axios', 'Mock-API', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7/todolist',
         webURL: 'https://todolist-weld-alpha.vercel.app/'
     },
-    
+    {
+        id: 2,
+        image: '/assets/project0.jpg',
+        title: 'Food generator',
+        description: 'Practice Vuejs connect with MongoDB ',
+        technologies: [''],
+        gitURL: 'https://github.com/Charifx7',
+        webURL: ''
+    },
+    {
+        id: 2,
+        image: '/assets/project0.jpg',
+        title: 'Authentication',
+        description: 'Practice Vuejs connect with MongoDB ',
+        technologies: [''],
+        gitURL: 'https://github.com/Charifx7',
+        webURL: ''
+    },
+
 ]);
 
-const selectedCategory = ref('all');
-const filteredProjects = computed(() => {
-    if (selectedCategory.value === 'all') {
-        return Projects.value;
-    }
-    return Projects.value.filter(project => project.category.toLocaleLowerCase() === selectedCategory.value.toLocaleLowerCase());
-})
 
 
 </script>

@@ -11,7 +11,7 @@
                     <div class="text-center lg:text-left">
                         <h1 class="pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl">
                             Hi, I'm <span
-                                class="text-transparent bg-clip-text bg-gradient-to-r from-white to-[#d73434fd]">
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-white to-[#00aeff]">
                                 Charif
                             </span>
                         </h1>
@@ -21,11 +21,10 @@
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button
-                            class=" border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
+                            class="border ry px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center" style="background-color: #004d73; border-color: #004d73;">
                             <div
                                 class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative">
-                                <a href="/resume.pdf" download="resume.pdf" class="pl-2 text-primary"> Download
-                                    resume</a>
+                                <a href="/resume.pdf" download="resume.pdf" class="text-lg font-bold text-white">Resume</a>
                             </div>
                         </button>
                     </div>
@@ -34,10 +33,10 @@
                     <div
                         class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
                         <div
-                            class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#7930c8] to-primary blur-2xl">
+                            class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#007fdb] to-[#832561] blur-2xl">
                         </div>
                         <div
-                            class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary">
+                            class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border">
                             <img src="@/assets/top_picture.jpg" alt="Hero pic" width="500" height="auto" loading="lazy"
                                 class="w-full h-full rounded-full object-cover">
                         </div>
