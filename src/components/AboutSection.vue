@@ -6,6 +6,9 @@
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
             <div data-aos="flip-right">
                 <h2 class="text-4xl font-bold text-white text-left mb-8 ">
+                    <p class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text">
+  This text has a gradient color effect on all screen sizes.
+</p>
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#007fbd] to-[#dbebfa]">Education</span>
                 </h2>
                 <div class="space-y-8 py-8">
