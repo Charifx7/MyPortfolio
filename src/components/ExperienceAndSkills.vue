@@ -5,7 +5,7 @@
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-1 px-4 xl:gap-16 xl:px-16">
             <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full w-[80%]">
                 <h2 class="text-4xl font-bold text-white text-left mb-4">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#007fbd] to-[#dbebfa]">Skills</span>
+                    <span class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-[#007fbd] to-[#dbebfa]">Skills</span>
                 </h2>
                 <div class="mt-8" v-for="skill in Skills" :key="skill.id">
                     <div class="flex items-end justify-between" data-aos="fade-right">
@@ -18,7 +18,7 @@
             </div>
             <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full w-[80%]">
                 <h2 class="text-4xl font-bold text-white text-left mb-4">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#007fbd] to-[#dbebfa]">Tools</span>
+                    <span class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-[#007fbd] to-[#dbebfa]">Tools</span>
                 </h2>
                 <div class="mt-8" v-for="tool in Tools" :key="tool.id">
                     <div class="flex items-end justify-between" data-aos="fade-right">

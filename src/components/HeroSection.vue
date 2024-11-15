@@ -11,7 +11,7 @@
                     <div class="text-center lg:text-left">
                         <h1 class="pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl">
                             Hi, I'm <span
-                                class="text-transparent bg-clip-text bg-gradient-to-r from-white to-[#00aeff]">
+                                class="text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-rr from-white to-[#00aeff]">
                                 Charif
                             </span>
                         </h1>
