@@ -7,9 +7,13 @@
             <ul class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3 "
                 data-aos="fade-right">
                 <div v-for="project in Projects" :key="project.id" class="transition-transform duration-500 hover:scale-105">
-                    <div class="h-52 md:h-[24rem] rounded-t-xl relative group "
-                        :style="{ backgroundImage: 'url(' + project.image + ')', backgroundSize: 'cover' }">
-
+                    <div class="h-52 md:h-[24rem] rounded-t-xl relative flex items-center justify-center group"
+            :style="{ 
+                backgroundImage: 'url(' + project.image + ')', 
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
+                backgroundRepeat: 'no-repeat' 
+            }">
                     </div>
                     <div class="text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4">
                         <h3 class="text-lg font-semibold uppercase lg:text-xl"> {{ project.title }}</h3>
@@ -48,8 +52,8 @@ const Projects = ref([
         title: 'To-do list',
         description: 'Practice Vuejs component, state management, API integration, CRUD, Async handling and debugging',
         technologies: ['Vue', 'Pinia', 'Axios', 'Mock-API', 'TailwindCSS'],
-        gitURL: 'https://github.com/Charifx7/todolist',
-        webURL: 'https://todolist-weld-alpha.vercel.app/'
+        gitURL: 'https://github.com/Charifx7/todo-list',
+        webURL: 'https://todo-list-beta-two-62.vercel.app/'
     },
     {
         id: 2,
