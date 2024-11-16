@@ -5,7 +5,7 @@
         </div>
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
             <div data-aos="flip-right">
-                <h2 class="text-4xl font-bold text-white text-left mb-8 ">
+                <h2 class="text-4xl font-bold text-white md:text-left text-left mb-4">
                     <span class="text-cyan-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl">Education</span>
                 </h2>
                 <div class="space-y-8 py-8">
@@ -21,12 +21,12 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
-                <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">
+            <div class="mt-5 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
+                <h2 class="text-4xl font-bold text-white md:text-left text-left mb-4">
                     <span class="text-cyan-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl">About</span>
                     Me
                 </h2>
-                <p class="text-base lg:text-lg mt-8 py-8">My name is Muhammadcharif Binlateh I am a new graduate in
+                <p class="text-base lg:text-lg  py-8">My name is Muhammadcharif Binlateh I am a new graduate in
                     Computer Science
                     with a passion for creating responsive, user-friendly websites. I have experience with HTML, CSS,
                     JavaScript, Vue, Node.js, and MongoDB, and I'm always eager to learn new technologies to enhance my
