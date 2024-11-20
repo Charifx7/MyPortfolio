@@ -58,9 +58,9 @@ const Projects = ref([
     {
         id: 2,
         image: '/assets/project0.jpg',
-        title: 'Food generator',
-        description: 'Practice Vuejs connect with MongoDB ',
-        technologies: ['Vue'],
+        title: 'E-commerce Front-end',
+        description: 'Practice Vuejs to build E-commerce',
+        technologies: ['Vue', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7',
         webURL: ''
     },
