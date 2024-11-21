@@ -57,15 +57,15 @@ const Projects = ref([
     },
     {
         id: 2,
-        image: '/assets/project0.jpg',
+        image: '/assets/project2.png',
         title: 'E-commerce Front-end',
         description: 'Practice Vuejs to build E-commerce',
         technologies: ['Vue', 'TailwindCSS'],
-        gitURL: 'https://github.com/Charifx7',
-        webURL: ''
+        gitURL: 'https://github.com/Charifx7/e-commerce-front-end',
+        webURL: 'https://e-commerce-front-end-fawn.vercel.app/'
     },
     {
-        id: 2,
+        id: 3,
         image: '/assets/project0.jpg',
         title: 'Authentication',
         description: 'Practice Vuejs connect with MongoDB ',
