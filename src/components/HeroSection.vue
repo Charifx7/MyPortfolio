@@ -13,7 +13,7 @@
                     </div>
                     <p
                         class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-4xl text-transparent bg-gradient-to-r sm:bg-gradient-to-b md:bg-gradient-to-l lg:bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text">
-                        Junior Web Developer
+                        Web Developer
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <a href="https://www.google.com" target="_blank" class="w-full sm:w-max">
