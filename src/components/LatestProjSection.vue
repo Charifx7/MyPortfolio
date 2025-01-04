@@ -59,7 +59,7 @@ const Projects = ref([
         id: 2,
         image: '/assets/project2.png',
         title: 'E-commerce Front-end with temporary data storage',
-        description: 'practicing Vue.js to build a responsive e-commerce application that uses a temporary file for data storage.', 
+        description: 'Practicing Vue.js to build a responsive e-commerce application that uses a temporary file for data storage.', 
         technologies: ['Vue', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7/e-commerce-front-end',
         webURL: 'https://e-commerce-front-end-fawn.vercel.app/'
