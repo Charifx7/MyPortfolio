@@ -58,7 +58,7 @@ const Projects = ref([
     {
         id: 2,
         image: '/assets/project2.png',
-        title: 'E-Commerce Application with Temporary Data Storage',
+        title: 'E-Commerce with Temporary Data Storage',
         description: 'Practicing Vue.js to build a responsive e-commerce application that uses a temporary file for data storage.', 
         technologies: ['Vue', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7/e-commerce-front-end',
