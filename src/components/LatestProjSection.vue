@@ -50,7 +50,7 @@ const Projects = ref([
         id: 1,
         image: '/assets/project1.png',
         title: 'To-do list',
-        description: 'Practice Vuejs component, state management, API integration, CRUD, Async handling and debugging',
+        description: 'Practicing Vue.js, State management, API integration, CRUD operations, async handling, and debugging for a to-do list project.',
         technologies: ['Vue', 'Pinia', 'Axios', 'Mock-API', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7/todo-list',
         webURL: 'https://todo-list-beta-two-62.vercel.app/'
@@ -58,8 +58,8 @@ const Projects = ref([
     {
         id: 2,
         image: '/assets/project2.png',
-        title: 'E-commerce Front-end',
-        description: 'Practice Vuejs to build E-commerce',
+        title: 'E-commerce Front-end with temporary data storage',
+        description: 'practicing Vue.js to build a responsive e-commerce application that uses a temporary file for data storage.', 
         technologies: ['Vue', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7/e-commerce-front-end',
         webURL: 'https://e-commerce-front-end-fawn.vercel.app/'
