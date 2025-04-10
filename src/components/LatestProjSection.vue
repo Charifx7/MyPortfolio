@@ -31,7 +31,7 @@
                                 class="px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700">
                                 View GitHub
                             </a>
-                            <a :href="project.webURL" target="_blank"
+                            <a  v-if ="project.webURL":href="project.webURL" target="_blank"
                                 class="px-4 py-2 text-sm font-semibold text-white bg-green-600 rounded-md hover:bg-green-700">
                                 View Demo
                             </a>
@@ -66,14 +66,14 @@ const Projects = ref([
     },
     {
         id: 3,
-        image: '/assets/project0.jpg',
+        image: '/assets/project3.png',
         title: 'Full stack Recipe app',
         description: 'Practicing using the MEVN stack to build a recipe app with CRUD operations connected to a MongoDB database',
         technologies: ['Vue', 'MongoDB', 'Express', 'Node.js', 'TailwindCSS'],
-        gitURL: 'https://github.com/Charifx7',
+        gitURL: 'https://github.com/Charifx7/fullstack_MEVN_recipe_app',
         webURL: ''
     },
-
+  
 ]);
 
 
