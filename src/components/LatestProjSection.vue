@@ -71,7 +71,7 @@ const Projects = ref([
         description: 'Practicing using the MEVN stack to build a recipe app with CRUD operations connected to a MongoDB database',
         technologies: ['Vue', 'MongoDB', 'Express', 'Node.js', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7/fullstack_MEVN_recipe_app',
-        webURL: 'https://fullstack-mevn-recipe-app-charif-75r1mjh89-charifx7s-projects.vercel.app/'
+        webURL: 'https://fullstack-mevn-recipe-app-charif.vercel.app/'
     },
   
 ]);
