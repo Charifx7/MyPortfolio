@@ -51,7 +51,7 @@ const Projects = ref([
         image: '/assets/project1.png',
         title: 'To-do list',
         description: 'Practicing Vue.js, State management, API integration, CRUD operations, async handling, and debugging for a to-do list project.',
-        technologies: ['Vue', 'Pinia', 'Axios', 'Mock-API', 'TailwindCSS'],
+        technologies: ['Vue', 'Pinia', 'Mock-API', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7/todo-list',
         webURL: 'https://todo-list-beta-two-62.vercel.app/'
     },
@@ -67,9 +67,9 @@ const Projects = ref([
     {
         id: 3,
         image: '/assets/project0.jpg',
-        title: 'Authentication',
-        description: 'Practice Vuejs connect with MongoDB ',
-        technologies: ['Vue'],
+        title: 'Full stack Recipe app',
+        description: 'Practicing using the MEVN stack to build a recipe app with CRUD operations connected to a MongoDB database',
+        technologies: ['Vue', 'MongoDB', 'Express', 'Node.js', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7',
         webURL: ''
     },
