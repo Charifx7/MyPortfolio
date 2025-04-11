@@ -75,10 +75,6 @@ const Tools = ref([
         id: 3,
         name: 'Postman',
     },
-    {
-        id: 4,
-        name: 'Docker',
-    },
 
 ]);
 
