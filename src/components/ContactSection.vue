@@ -60,7 +60,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-semibold text-cyan-300">Phone</h3>
-                <a href="tel:097-348-8899" class="text-gray-300 hover:text-white transition-colors">
+                <a class="text-gray-300 hover:text-white transition-colors">
                   097-348-8899
                 </a>
               </div>
