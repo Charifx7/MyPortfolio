@@ -2,7 +2,7 @@
     <section id="skills" class="py-20">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl font-bold text-center text-white mb-12" data-aos="fade-up">Technical skills</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
                 
                 <!-- Frontend Section -->
                 <div class="bg-[#111a3e] rounded-xl p-8 border border-[#1f1641] hover:shadow-xl transition-all duration-300"
