@@ -6,8 +6,9 @@
             </div>
             <ul class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
                 data-aos="fade-right">
-                <div v-for="project in Projects" :key="project.id" class="transition-transform duration-500 hover:scale-105">
-                    <div class="h-52 md:h-[24rem] rounded-t-xl relative flex items-center justify-center group"
+                <div v-for="project in Projects" :key="project.id" 
+                    class="flex flex-col h-full transition-transform duration-500 hover:scale-105">
+                    <div class="h-52 md:h-[24rem] rounded-t-xl relative flex items-center justify-center"
                         :style="{ 
                             backgroundImage: 'url(' + project.image + ')', 
                             backgroundSize: 'cover', 
@@ -15,18 +16,21 @@
                             backgroundRepeat: 'no-repeat' 
                         }">
                     </div>
-                    <div class="text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4">
+                    <div class="flex flex-col flex-grow text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4">
                         <h3 class="text-lg font-semibold uppercase lg:text-xl">{{ project.title }}</h3>
-                        <p class="text-[#ADB7BE]">{{ project.description }}</p>
-                        <div class="flex flex-wrap p-2.5">
+                        <p class="text-[#ADB7BE] flex-grow min-h-[60px] mt-2">{{ project.description }}</p>
+                        <div class="flex flex-wrap gap-2 mt-4 mb-6">
                             <div v-for="technology in project.technologies" :key="technology"
-                                class="text-center ml-1 mt-1 rounded-3xl bg-[#111827]"
-                                style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); border: 1px solid #111827;backdrop-filter: blur(9px);-webkit-backdrop-filter: blur(9px);">
-                                <p class="px-1 py-2">{{ technology }}</p>
+                                class="text-center rounded-full px-4 py-1.5 text-sm font-medium
+                                       bg-gradient-to-r from-cyan-400/10 to-blue-400/10 
+                                       border border-cyan-400/20
+                                       text-cyan-300 "
+                            >
+                                {{ technology }}
                             </div>
                         </div>
                         <!-- Buttons for GitHub and Demo -->
-                        <div class="flex mt-4 space-x-4">
+                        <div class="flex mt-auto space-x-4">
                             <a :href="project.gitURL" target="_blank"
                                 class="px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700">
                                 View GitHub
@@ -73,6 +77,15 @@ const Projects = ref([
         gitURL: 'https://github.com/Charifx7/fullstack_MEVN_recipe_app',
         webURL: 'https://fullstack-mevn-recipe-app-charif.vercel.app/'
     },
+    // {
+    //     id: 0,
+    //     image: '/assets/project0.jpg',
+    //     title: 'TEMP',
+    //     description: 'TEMP',
+    //     technologies: ['TEMP'],
+    //     gitURL: 'https://github.com/Charifx7',
+    //     webURL: ''
+    // },
   
 ]);
 
