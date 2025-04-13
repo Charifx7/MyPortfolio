@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-[#172035] min-h-screen">
+  <div class="bg-[#172035] min-h-screen w-full">
     <!-- Wrap components in Suspense to handle loading -->
      <Suspense>
       <template #default>
         <!-- Wrap all Components inside a single root element -->
-         <div>
+         <div class="bg-[#172035]">
             <NavBar />
             <HeroSection />
             <AboutSection />
@@ -16,7 +16,7 @@
       </div>
     </template>
     <template #fallback>
-      <div class="flex justify-center items-center min-h-screen">
+      <div class="flex justify-center items-center min-h-screen bg-[#172035]">
           <loadingSpinner />
       </div>
     </template>
@@ -45,5 +45,12 @@ import loadingSpinner from './components/loadingSpinner.vue';
   scrollbar-width: thin;
   scrollbar-color: #111827 #f1f1f1;
 }
+
+/* Add these styles to ensure background color consistency */
+html, body {
+  background-color: #172035;
+  min-height: 100%;
+}
 </style>
+
 
