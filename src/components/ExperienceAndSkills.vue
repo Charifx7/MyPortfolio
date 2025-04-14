@@ -139,15 +139,10 @@ const backendSkills = ref([
         name: 'Node.js',
         level: 'Beginner',
         icon: 'https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png'
+   
     },
     {
-        id: 4,
-        name: 'Express.js',
-        level: 'Beginner',
-        icon: 'https://logowik.com/content/uploads/images/express-js1720895488.logowik.com.webp'
-    },
-    {
-        id: 3,
+        id: 2,
         name: 'MongoDB',
         level: 'Beginner',
         icon: 'https://www.svgrepo.com/show/331488/mongodb.svg'
