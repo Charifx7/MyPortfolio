@@ -78,7 +78,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-bold ml-4 text-cyan-300">Tools & DevOps</h3>
+                        <h3 class="text-2xl font-bold ml-4 text-cyan-300">Tools</h3>
                     </div>
                     <div class="grid grid-cols-2 gap-4">
                         <div v-for="skill in sortedToolsAndDevOps" :key="skill.id" 
