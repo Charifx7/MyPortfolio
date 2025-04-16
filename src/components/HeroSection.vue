@@ -16,7 +16,7 @@
                         Web Developer
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
-                        <a href="https://drive.google.com/file/d/19J0QCSN2-rnLD3WcpiXY6cXUN1yGrxRn/view?usp=sharing" target="_blank" class="w-full sm:w-max">
+                        <a href="https://drive.google.com/file/d/1hMeUhnmsROmoAoxP2_wYlT66SC6gqf8E/view?usp=sharing" target="_blank" class="w-full sm:w-max">
                             <button class="border ry px-6 md:px-7 py-3 rounded-full relative group w-full flex justify-center 
             bg-gradient-to-r from-cyan-600 to-blue-600 transition-transform duration-500 hover:scale-105"
                                 style="background-color: #4DD0E1; border-color: #004d73;">
