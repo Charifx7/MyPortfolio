@@ -54,7 +54,7 @@ const Projects = ref([
         id: 1,
         image: '/assets/project1.png',
         title: 'To-do list',
-        description: 'Practicing Vue.js, State management, API integration, CRUD operations, async handling, and debugging for a to-do list project.',
+        description: 'To-do list project with Mock API using Pinia. Features include task creation, editing, deletion, and filtering.',
         technologies: ['Vue', 'Pinia', 'Mock-API', 'TailwindCSS'],
         gitURL: 'https://github.com/Charifx7/todo-list',
         webURL: 'https://todo-list-beta-two-62.vercel.app/'
@@ -63,8 +63,8 @@ const Projects = ref([
         id: 2,
         image: '/assets/project2.png',
         title: 'E-Commerce with Temporary Data Storage',
-        description: 'Practicing Vue.js to build a responsive e-commerce application that uses a temporary file for data storage.', 
-        technologies: ['Vue', 'TailwindCSS'],
+        description: 'E-commerce front-end project with temporary data storage using Pinia. Features include product display, cart management, and checkout process.', 
+        technologies: ['Vue', 'TailwindCSS', 'Pinia'],
         gitURL: 'https://github.com/Charifx7/e-commerce-front-end',
         webURL: 'https://e-commerce-front-end-fawn.vercel.app/'
     },
@@ -72,8 +72,8 @@ const Projects = ref([
         id: 3,
         image: '/assets/project3.png',
         title: 'Full stack Recipe app',
-        description: 'Practicing using the MEVN stack to build a recipe app with CRUD operations connected to a MongoDB database',
-        technologies: ['Vue', 'MongoDB', 'Express', 'Node.js', 'TailwindCSS'],
+        description: 'Full-stack recipe app with CRUD operations, JWT authentication, and Role-based access control (RBAC). Users can create and manage their own recipes, while admin users have extended permissions',
+        technologies: ['Vue', 'MongoDB', 'Express', 'Node.js', 'TailwindCSS', 'JWT', 'RBAC' ,'Pinia'],
         gitURL: 'https://github.com/Charifx7/fullstack_MEVN_recipe_app',
         webURL: 'https://fullstack-mevn-recipe-app-charif.vercel.app/'
     },
