@@ -171,11 +171,6 @@ const toolsAndDevOps = ref([
         name: 'Postman',
         icon: 'https://www.svgrepo.com/show/354202/postman-icon.svg'
     },
-    {
-        id: 5,
-        name: 'Docker',
-        icon: 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png'
-    },
 ]);
 
 // Helper function to sort skills by level
