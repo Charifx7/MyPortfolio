@@ -72,10 +72,19 @@ const Projects = ref([
         id: 3,
         image: '/assets/project3.png',
         title: 'Full stack Recipe app',
-        description: 'Full-stack recipe app with CRUD operations, JWT authentication, and Role-based access control (RBAC). Users can create and manage their own recipes, while admin users have extended permissions',
-        technologies: ['Vue', 'MongoDB', 'Express', 'Node.js', 'TailwindCSS', 'JWT', 'RBAC' ,'Pinia'],
+        description: 'Full-stack recipe app with CRUD operations, JWT Authentication, and Role-based access control (RBAC). Users can create and manage their own recipes, while admin users have extended permissions',
+        technologies: ['Vue','Node.js','Express', 'MongoDB','TailwindCSS', 'JWT','Pinia'],
         gitURL: 'https://github.com/Charifx7/fullstack_MEVN_recipe_app',
         webURL: 'https://fullstack-mevn-recipe-app-charif.vercel.app/'
+    },
+    {
+        id: 4,
+        image: '/assets/project0.jpg',
+        title: 'Booking Project',
+        description: 'In progress',
+        technologies: ['Vue', 'Node.js', 'Express','MySQL','OAuth','TailwindCSS','JWT','Pinia'],
+        gitURL: 'https://github.com/Charifx7',
+        webURL: ''
     },
     // {
     //     id: 0,
