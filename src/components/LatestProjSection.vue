@@ -52,6 +52,15 @@ import { ref, computed } from 'vue';
 const Projects = ref([
     {
         id: 1,
+        image: '/assets/project3.png',
+        title: 'Full stack Recipe app',
+        description: 'Full-stack recipe app with CRUD operations, JWT Authentication, and Role-based access control (RBAC). Users can create and manage their own recipes, while admin users have extended permissions',
+        technologies: ['Vue','Node.js','Express', 'MongoDB','TailwindCSS', 'JWT','Pinia'],
+        gitURL: 'https://github.com/Charifx7/fullstack_MEVN_recipe_app',
+        webURL: 'https://fullstack-mevn-recipe-app-charif.vercel.app/'
+    },
+    {
+        id: 2,
         image: '/assets/project1.png',
         title: 'To-do list',
         description: 'To-do list project with Mock API using Pinia. Features include task creation, editing, deletion, and filtering.',
@@ -60,7 +69,7 @@ const Projects = ref([
         webURL: 'https://todo-list-beta-two-62.vercel.app/'
     },
     {
-        id: 2,
+        id: 3,
         image: '/assets/project2.png',
         title: 'E-Commerce with Temporary Data Storage',
         description: 'E-commerce front-end project with temporary data storage using Pinia. Features include product display, cart management.', 
@@ -68,15 +77,7 @@ const Projects = ref([
         gitURL: 'https://github.com/Charifx7/e-commerce-front-end',
         webURL: 'https://e-commerce-front-end-fawn.vercel.app/'
     },
-    {
-        id: 3,
-        image: '/assets/project3.png',
-        title: 'Full stack Recipe app',
-        description: 'Full-stack recipe app with CRUD operations, JWT Authentication, and Role-based access control (RBAC). Users can create and manage their own recipes, while admin users have extended permissions',
-        technologies: ['Vue','Node.js','Express', 'MongoDB','TailwindCSS', 'JWT','Pinia'],
-        gitURL: 'https://github.com/Charifx7/fullstack_MEVN_recipe_app',
-        webURL: 'https://fullstack-mevn-recipe-app-charif.vercel.app/'
-    },
+   
     {
         id: 4,
         image: '/assets/project0.jpg',
