@@ -27,7 +27,8 @@
                                     :class="{
                                         'bg-yellow-900/50 text-orange-400': skill.level === 'Advanced',
                                         'bg-yellow-600/50 text-yellow-400': skill.level === 'Intermediate',
-                                        'bg-emerald-900/50 text-emerald-400': skill.level === 'Beginner'
+                                        'bg-emerald-900/50 text-emerald-400': skill.level === 'Beginner',
+                                        'bg-gray-400/50 text-white': skill.level === 'Learning'
                                     }">
                                     {{ skill.level }}
                                 </span>
@@ -59,7 +60,8 @@
                                     :class="{
                                         'bg-yellow-900/50 text-orange-400': skill.level === 'Advanced',
                                         'bg-blue-900/50 text-blue-400': skill.level === 'Intermediate',
-                                        'bg-emerald-900/50 text-emerald-400': skill.level === 'Beginner'
+                                        'bg-emerald-900/50 text-emerald-400': skill.level === 'Beginner',
+                                        'bg-gray-400/50 text-white': skill.level === 'Learning'
                                     }">
                                     {{ skill.level }}
                                 </span>
@@ -130,6 +132,12 @@ const frontendSkills = ref([
         name: 'Tailwind CSS',
         level: 'Beginner',
         icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s'
+    },
+    {
+        id: 5,
+        name: 'Nuxt.js',
+        level: 'Learning',
+        icon: 'https://seeklogo.com/images/N/nuxt-2023-logo-7D939E3251-seeklogo.com.png'
     }
 ]);
 
@@ -146,6 +154,12 @@ const backendSkills = ref([
         name: 'MongoDB',
         level: 'Beginner',
         icon: 'https://www.svgrepo.com/show/331488/mongodb.svg'
+    },
+    {
+        id: 2,
+        name: 'Next.js',
+        level: 'Learning',
+        icon: 'https://logowik.com/content/uploads/images/nestjs-node-js1721157586.logowik.com.webp'
     },
    
 ]);
@@ -178,7 +192,8 @@ const sortByLevel = (skills) => {
     const levelOrder = {
         'Advanced': 1,
         'Intermediate': 2,
-        'Beginner': 3
+        'Beginner': 3,
+        'Learning': 4
     };
     
     return [...skills].sort((a, b) => {
