@@ -157,7 +157,7 @@ const backendSkills = ref([
     },
     {
         id: 2,
-        name: 'Next.js',
+        name: 'Nest.js',
         level: 'Learning',
         icon: 'https://logowik.com/content/uploads/images/nestjs-node-js1721157586.logowik.com.webp'
     },
