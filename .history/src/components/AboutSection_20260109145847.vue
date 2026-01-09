@@ -66,9 +66,9 @@ const education = ref([
 const workExperience = ref([
     {
         id: 1,
-        Company: 'BRK Inter Transport Company Limited',
-        role: 'Programmer, ITSupport',
-        duration: 'Oct 2025 - Current'
+        Company: 'BRK inter transport',
+        role: 'Web',
+        duration: 'June 2022 - August 2022'
     },
 ])
 </script>

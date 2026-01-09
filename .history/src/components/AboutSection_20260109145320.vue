@@ -23,20 +23,9 @@
                     <h2 class="text-4xl font-bold text-white text-left mb-4">
                         <span class="text-cyan-300">Work Experience</span>
                     </h2>
-                    <div class="space-y-8">
-                        <div v-for="element in workExperience" :key="element.id"
-                            class="flex items-center rounded-xl shadow-lg border border-[#1f1641] py-3 bg-gradient-to-r from-[#111a3e] to-[#111a3e]">
-                            <div class="w-full pl-4">
-                                <h3 class="text-cyan-300 text-left text-2xl">
-                                    {{ element.Company }}
-                                </h3>
-                                <p class="text-white">{{ element.role }}</p>
-                                <p class="text-white">{{ element.duration }}</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
+
             <!-- About Me Section -->
             <div class="space-y-8" data-aos="flip-right">
                 <h2 class="text-4xl font-bold text-white text-left mb-4">
@@ -66,9 +55,9 @@ const education = ref([
 const workExperience = ref([
     {
         id: 1,
-        Company: 'BRK Inter Transport Company Limited',
-        role: 'Programmer, ITSupport',
-        duration: 'Oct 2025 - Current'
+        Company: 'Internship at ABC Company',
+        role: 'Web Development Intern',
+        duration: 'June 2022 - August 2022'
     },
 ])
 </script>

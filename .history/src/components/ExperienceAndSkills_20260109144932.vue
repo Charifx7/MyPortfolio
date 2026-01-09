@@ -146,7 +146,7 @@ const backendSkills = ref([
         id: 1,
         name: 'Node.js',
         level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/354119/nodejs-icon.svg'
+        icon: 'https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png'
    
     },
     {

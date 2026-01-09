@@ -37,6 +37,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- About Me Section -->
             <div class="space-y-8" data-aos="flip-right">
                 <h2 class="text-4xl font-bold text-white text-left mb-4">
@@ -66,9 +67,9 @@ const education = ref([
 const workExperience = ref([
     {
         id: 1,
-        Company: 'BRK Inter Transport Company Limited',
-        role: 'Programmer, ITSupport',
-        duration: 'Oct 2025 - Current'
+        Company: 'Internship at ABC Company',
+        role: 'Web Development Intern',
+        duration: 'June 2022 - August 2022'
     },
 ])
 </script>
