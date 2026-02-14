@@ -117,7 +117,7 @@ const frontendSkills = ref([
         icon: 'https://www.svgrepo.com/show/452092/react.svg'
     },
     {
-        id: 3,
+        id: 5,
         name: 'Tailwind CSS',
         level: 'Beginner',
         icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s'
@@ -140,13 +140,7 @@ const backendSkills = ref([
         icon: 'https://www.svgrepo.com/show/331488/mongodb.svg'
     },
     {
-        id: 3,
-        name: 'MySQL',
-        level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/303251/mysql-logo.svg'
-    },
-    {
-        id: 4,
+        id: 2,
         name: 'Nest.js',
         level: 'Learning',
         icon: 'https://logowik.com/content/uploads/images/nestjs-node-js1721157586.logowik.com.webp'

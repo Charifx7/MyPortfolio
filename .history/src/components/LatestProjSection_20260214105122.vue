@@ -6,24 +6,26 @@
             </div>
             <ul class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
                 data-aos="fade-right">
-                <div v-for="project in Projects" :key="project.id"
+                <div v-for="project in Projects" :key="project.id" 
                     class="flex flex-col h-full transition-transform duration-500 hover:scale-105">
-                    <div class="h-52 md:h-[24rem] rounded-t-xl relative flex items-center justify-center" :style="{
-                        backgroundImage: 'url(' + project.image + ')',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        backgroundRepeat: 'no-repeat'
-                    }">
+                    <div class="h-52 md:h-[24rem] rounded-t-xl relative flex items-center justify-center"
+                        :style="{ 
+                            backgroundImage: 'url(' + project.image + ')', 
+                            backgroundSize: 'cover', 
+                            backgroundPosition: 'center', 
+                            backgroundRepeat: 'no-repeat' 
+                        }">
                     </div>
-                    <div
-                        class="flex flex-col flex-grow text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4">
+                    <div class="flex flex-col flex-grow text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4">
                         <h3 class="text-lg font-semibold uppercase lg:text-xl">{{ project.title }}</h3>
                         <p class="text-[#ADB7BE] flex-grow min-h-[60px] mt-2">{{ project.description }}</p>
                         <div class="flex flex-wrap gap-2 mt-4 mb-6">
-                            <div v-for="technology in project.technologies" :key="technology" class="text-center rounded-full px-4 py-1.5 text-sm font-medium
+                            <div v-for="technology in project.technologies" :key="technology"
+                                class="text-center rounded-full px-4 py-1.5 text-sm font-medium
                                        bg-gradient-to-r from-cyan-400/10 to-blue-400/10 
                                        border border-cyan-400/20
-                                       text-cyan-300 ">
+                                       text-cyan-300 "
+                            >
                                 {{ technology }}
                             </div>
                         </div>
@@ -53,17 +55,17 @@ const Projects = ref([
         image: '/assets/project3.png',
         title: 'Full stack Recipe app',
         description: 'Full-stack recipe app with CRUD operations, JWT Authentication, and Role-based access control (RBAC). Users can create and manage their own recipes, while admin users have extended permissions',
-        technologies: ['Vue', 'Node.js', 'Express', 'MongoDB', 'TailwindCSS', 'JWT', 'Pinia'],
+        technologies: ['Vue','Node.js','Express', 'MongoDB','TailwindCSS', 'JWT','Pinia'],
         gitURL: 'https://github.com/Charifx7/fullstack_MEVN_recipe_app',
         webURL: 'https://fullstack-mevn-recipe-app-charif.vercel.app/'
     },
 
     {
-        id: 2,
+        id: 4,
         image: '/assets/project0.jpg',
         title: 'Booking Project',
         description: 'In progress',
-        technologies: ['React', 'Nest.js', 'MySQL', 'Zustand', 'TailwindCSS', 'JWT', 'Feature-based architecture'],
+        technologies: ['React(Typescript)', 'Nest.js',],
         gitURL: 'https://github.com/Charifx7',
         webURL: ''
     },
@@ -76,7 +78,7 @@ const Projects = ref([
     //     gitURL: 'https://github.com/Charifx7',
     //     webURL: ''
     // },
-
+  
 ]);
 
 

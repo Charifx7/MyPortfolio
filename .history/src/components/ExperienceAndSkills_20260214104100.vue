@@ -143,7 +143,7 @@ const backendSkills = ref([
         id: 3,
         name: 'MySQL',
         level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/303251/mysql-logo.svg'
+        icon: 'https://www.svgrepo.com/show/354118/express.svg'
     },
     {
         id: 4,

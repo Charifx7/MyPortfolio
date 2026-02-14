@@ -80,7 +80,31 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-bold ml-4 text-cyan-300">Programming Languages</h3>
+                        <h3 class="text-2xl font-bold ml-4 text-cyan-300">Tools</h3>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div v-for="skill in sortedToolsAndDevOps" :key="skill.id" 
+                            class="bg-[#1a2544] rounded-lg p-4 hover:bg-[#1f2d52] transition-all duration-300">
+                            <div class="flex items-center space-x-3">
+                                <img :src="skill.icon" alt="tool icon" class="w-8 h-8 object-contain"/>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-white">{{ skill.name }}</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   <!-- Tools & DevOps Section -->
+                <div class="bg-[#111a3e] rounded-xl p-8 border border-[#1f1641] hover:shadow-xl transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex items-center mb-8">
+                        <div class="w-12 h-12 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold ml-4 text-cyan-300">Tools</h3>
                     </div>
                     <div class="grid grid-cols-2 gap-4">
                         <div v-for="skill in sortedToolsAndDevOps" :key="skill.id" 
@@ -103,59 +127,7 @@
 import { ref, computed } from 'vue';
 
 const frontendSkills = ref([
-  
     {
-        id: 1,
-        name: 'Vue.js',
-        level: 'Beginner',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png'
-    },
-      {
-        id: 2,
-        name: 'React',
-        level: 'Learning',
-        icon: 'https://www.svgrepo.com/show/452092/react.svg'
-    },
-    {
-        id: 3,
-        name: 'Tailwind CSS',
-        level: 'Beginner',
-        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s'
-    },
-  
-]);
-
-const backendSkills = ref([
-    {
-        id: 1,
-        name: 'Node.js',
-        level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/354119/nodejs-icon.svg'
-   
-    },
-    {
-        id: 2,
-        name: 'MongoDB',
-        level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/331488/mongodb.svg'
-    },
-    {
-        id: 3,
-        name: 'MySQL',
-        level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/303251/mysql-logo.svg'
-    },
-    {
-        id: 4,
-        name: 'Nest.js',
-        level: 'Learning',
-        icon: 'https://logowik.com/content/uploads/images/nestjs-node-js1721157586.logowik.com.webp'
-    },
-   
-]);
-
-const toolsAndDevOps = ref([
-      {
         id: 1,
         name: 'HTML',
         level: 'Advanced',
@@ -175,10 +147,68 @@ const toolsAndDevOps = ref([
     },
     {
         id: 4,
-        name: 'Typescript',
+        name: 'Vue.js',
         level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/439022/typescript.svg'
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png'
+    },
+    {
+        id: 5,
+        name: 'Tailwind CSS',
+        level: 'Beginner',
+        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s'
+    },
+    {
+        id: 5,
+        name: 'React',
+        level: 'Learning',
+        icon: 'https://www.svgrepo.com/show/452092/react.svg'
     }
+]);
+
+const backendSkills = ref([
+    {
+        id: 1,
+        name: 'Node.js',
+        level: 'Beginner',
+        icon: 'https://www.svgrepo.com/show/354119/nodejs-icon.svg'
+   
+    },
+    {
+        id: 2,
+        name: 'MongoDB',
+        level: 'Beginner',
+        icon: 'https://www.svgrepo.com/show/331488/mongodb.svg'
+    },
+    {
+        id: 2,
+        name: 'Nest.js',
+        level: 'Learning',
+        icon: 'https://logowik.com/content/uploads/images/nestjs-node-js1721157586.logowik.com.webp'
+    },
+   
+]);
+
+const toolsAndDevOps = ref([
+    {
+        id: 1,
+        name: 'Git',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png'
+    },
+    {
+        id: 2,
+        name: 'GitHub',
+        icon: 'https://img.icons8.com/ios-filled/50/ffffff/github.png'
+    },
+    {
+        id: 3,
+        name: 'VSCode',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/768px-Visual_Studio_Code_1.35_icon.svg.png'
+    },
+    {
+        id: 4,
+        name: 'Postman',
+        icon: 'https://www.svgrepo.com/show/354202/postman-icon.svg'
+    },
 ]);
 
 // Helper function to sort skills by level

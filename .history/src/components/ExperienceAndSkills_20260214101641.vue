@@ -105,24 +105,23 @@ import { ref, computed } from 'vue';
 const frontendSkills = ref([
   
     {
-        id: 1,
+        id: 4,
         name: 'Vue.js',
         level: 'Beginner',
         icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png'
     },
-      {
-        id: 2,
-        name: 'React',
-        level: 'Learning',
-        icon: 'https://www.svgrepo.com/show/452092/react.svg'
-    },
     {
-        id: 3,
+        id: 5,
         name: 'Tailwind CSS',
         level: 'Beginner',
         icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s'
     },
-  
+    {
+        id: 5,
+        name: 'React',
+        level: 'Learning',
+        icon: 'https://www.svgrepo.com/show/452092/react.svg'
+    }
 ]);
 
 const backendSkills = ref([
@@ -140,13 +139,7 @@ const backendSkills = ref([
         icon: 'https://www.svgrepo.com/show/331488/mongodb.svg'
     },
     {
-        id: 3,
-        name: 'MySQL',
-        level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/303251/mysql-logo.svg'
-    },
-    {
-        id: 4,
+        id: 2,
         name: 'Nest.js',
         level: 'Learning',
         icon: 'https://logowik.com/content/uploads/images/nestjs-node-js1721157586.logowik.com.webp'
@@ -155,6 +148,18 @@ const backendSkills = ref([
 ]);
 
 const toolsAndDevOps = ref([
+    {
+        id: 1,
+        name: 'Git',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png'
+    },
+    {
+        id: 2,
+        name: 'GitHub',
+        icon: 'https://img.icons8.com/ios-filled/50/ffffff/github.png'
+    },
+   
+   
       {
         id: 1,
         name: 'HTML',
@@ -173,12 +178,6 @@ const toolsAndDevOps = ref([
         level: 'Beginner',
         icon: 'https://static.vecteezy.com/system/resources/thumbnails/027/127/463/small_2x/javascript-logo-javascript-icon-transparent-free-png.png'
     },
-    {
-        id: 4,
-        name: 'Typescript',
-        level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/439022/typescript.svg'
-    }
 ]);
 
 // Helper function to sort skills by level

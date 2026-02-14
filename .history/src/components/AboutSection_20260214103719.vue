@@ -44,10 +44,8 @@
                 </h2>
                 <p class="text-base lg:text-lg">
                     My name is Muhammadcharif Binlateh, and I am graduate in Computer Science
-                    with a passion for creating responsive, user-friendly websites. I am always eager to learn new
-                    technologies to improve my skills. In addition, I am ready to
-                    provide technical assistance within the organization, and I look forward to growing in the field of
-                    web development.
+with a passion for creating responsive, user-friendly websites. I am always  eager to learn new technologies to improve my skills. In addition, I am ready to
+provide technical assistance within the organization, and I look forward to growing in the field of web development.
                 </p>
             </div>
         </div>

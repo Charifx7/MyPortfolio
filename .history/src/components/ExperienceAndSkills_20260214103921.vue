@@ -140,12 +140,6 @@ const backendSkills = ref([
         icon: 'https://www.svgrepo.com/show/331488/mongodb.svg'
     },
     {
-        id: 3,
-        name: 'MySQL',
-        level: 'Beginner',
-        icon: 'https://www.svgrepo.com/show/303251/mysql-logo.svg'
-    },
-    {
         id: 4,
         name: 'Nest.js',
         level: 'Learning',
